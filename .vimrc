@@ -1,2 +1,1 @@
-colorscheme solarized
 syntax enable
