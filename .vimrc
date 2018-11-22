@@ -1,1 +1,2 @@
-set number
+colorscheme solarized
+syntax enable
