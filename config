@@ -1,0 +1,10 @@
+# SSH multiplexing
+Host *
+  ControlMaster auto
+  ControlPath ~/.ssh/master-%r@%h:%p
+
+#CAEN (I hope)
+Host mmd
+	HostName login.engin.umich.edu
+	User amlandy
+	Compression yes
