@@ -3,7 +3,7 @@ Host *
   ControlMaster auto
   ControlPath ~/.ssh/master-%r@%h:%p
 
-#CAEN (I hope)
+#CAEN 
 Host mmd
 	HostName login.engin.umich.edu
 	User amlandy
